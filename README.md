@@ -1,4 +1,26 @@
-[TOC]
+# 内容目录
+
+* [激活函数](1.Activation%20Functions/激活函数.md)
+* [梯度下降](2.Gradient%20Descent/梯度下降.md)
+  * [计算图](2.Gradient%20Descent/梯度下降.md/#计算图)
+  * [反向传播算法](2.Gradient%20Descent/梯度下降.md/#反向传播算法)
+  * [L2正则修正的梯度（权重衰减）](2.Gradient%20Descent/梯度下降.md/#l2正则修正的梯度权重衰减)
+  * [梯度消失和梯度爆炸](2.Gradient%20Descent/梯度下降.md/#梯度消失和梯度爆炸)
+  * [小批量梯度下降](2.Gradient%20Descent/梯度下降.md/#小批量梯度下降)
+  * [随机梯度下降](2.Gradient%20Descent/梯度下降.md/#随机梯度下降)
+  * [小批量梯度下降批次大小选择](2.Gradient%20Descent/梯度下降.md/#小批量梯度下降批次大小选择)
+  * [Momentum](2.Gradient%20Descent/梯度下降.md/#Momentum)
+  * [RMSprop](2.Gradient%20Descent/梯度下降.md/#RMSprop)
+  * [Adma](2.Gradient%20Descent/梯度下降.md/#Adma)
+  * [学习率衰减](2.Gradient%20Descent/梯度下降.md/#学习率衰减)
+  * [批量归一化](2.Gradient%20Descent/梯度下降.md/#批量归一化)
+* [参数](3.Parameters/参数.md)
+  * [可学习参数和超参数](3.Parameters/参数.md/#可学习参数和超参数)
+  * [参数初始化](3.Parameters/参数.md/#参数初始化)
+  * [超参数调优](3.Parameters/参数.md/#超参数调优)
+  
+
+----
 
 # 激活函数
 
@@ -376,7 +398,7 @@ $r$ | -1 | -2 | -3
 
 总损失为：
 
-![Total Loss](/Users/chashao/Desktop/workspace/SuperMachineLearningNotes/clip_image004.png)
+![Total Loss](./pic_pool/clip_image003.png)
 
 反向传播算法BPTT（Backpropagation Through Time）示意图：
 
